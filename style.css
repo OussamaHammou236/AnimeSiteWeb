@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+body
+{
+    height: 100vh;
+    width: auto;
+    background-color: #E5D9F2;
+}
+
+.pages .tit a
+{
+    all: unset;
+}
+
+.page1
+{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.pages
+{
+    width: 120px;
+    height: 100%;
+    margin-left: -7px;
+    margin-top: -8px;
+    background-color: #F5EFFF;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    /* flex-direction: column; 
+    justify-content: space-around; */
+}
+
+.content
+{
+    margin-left: 130px;
+    height: 100%;
+    width: 100%;
+    /* background-color: #E5D9F2; */
+    /* margin-left: 110px; */
+}
+
+
+.pages .tit
+{
+    width: 120px;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: space-around;
+}
+
+.pages .tit img
+{
+    width: 40px;
+    height: 40px;
+    padding: 14px;
+}
+
+.pages .tit img:hover
+{
+    background-color: #E5D9F2;
+    border-radius: 100px;
+    transform: scale(1.10);
+}
+
+.search_div
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.input
+{
+    all: unset;
+    width: 200px;
+    height: 40px;
+    background-color: #F5EFFF;
+    padding: 10px;
+    padding-left: 18px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.test
+{
+    width: 80px;
+    height: 60px;
+    background-color: #CDC1FF;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.search_div img
+{
+    width: 60px;
+    height: 60px;
+    padding-left: 10px;
+}
+
+.title_home
+{
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo
+{
+    color: gray;
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+.anime-img 
+{
+    width: 260px; 
+    height: 340px;
+}
+
+.anime-img:hover {
+    width: 265px;
+    height: 345px;
+}
+
+.con1
+{
+    width: 95%;
+    height: 1500px;
+    /* margin-top: 350px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+    padding: 25px;
+}
+
+.anime
+{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+    background-color: #CDC1FF;
+    
+}
+
+.anime:hover {
+    transform: scale(1.05);
+}
+
+.vedio_img img
+{
+    padding: 10px;
+    border-radius: 20px;
+}

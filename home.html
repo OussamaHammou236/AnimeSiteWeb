@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ayat</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="page1">
+        <div class="pages">
+            <div class="tit">
+                <div class="home" onclick="home()"><img src="imgs/home2.png" alt="img failed"></div>
+                <div class="movies" onclick="movies()"><img src="imgs/movie.png" alt="img failed"></div>
+                <div class="Series" onclick="Series()"><img src="imgs/serice.png" alt="img failed"></div>
+                <div class="setings" onclick="setings()"><img src="imgs/setings.png" alt="img failed"></div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="home_page">
+                <div class="title_home">
+                    <p class="logo">movies.bklik</p>
+                    <div class="search_div">
+                        <form onsubmit="return onsubmitw();">
+                            <input type="text" id="fname" placeholder="Search..." class="input">
+                        </form>
+                        <div class="test" onclick="onsubmitw()"><img src="imgs/search.png" alt="img failed"></div>
+                    </div>
+                </div>
+                <div class="vedio_img">
+                    <img src="imgs/title_img_1.png" alt="failed" style="width: 400px; height: 380px;">
+                    <img src="imgs/title_img_2.jpg" alt="failed" style="width: 650px; height: 380px;">
+                    <img src="imgs/title_img_3.jpg" alt="failed" style="width: 550px; height: 380px;">
+                    <!-- <audio controls autoplay loop style="display: none;">
+                        <source src="imgs/music.mp3">
+                    </audio> -->
+                </div>
+                <div class="con"></div>
+                <div class="con1"></div>
+            </div style="margin-left: 30px;">
+            <div class="movies_page" style="display: none;">movies page</div>
+            <div class="Series_page" style="display: none;">Series page</div>
+            <div class="setings_page" style="display: none;">setings page</div>
+        </div>
+    </div>
+    <script src="single_page.js"></script>
+    <script src="script.js"></script>
+    <script src="api.js"></script>
+</body>
+</html>
+
+
