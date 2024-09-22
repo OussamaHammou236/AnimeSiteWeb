@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body
 {
     height: 100vh;
@@ -153,6 +156,7 @@ body
     overflow: hidden;
     transition: transform 0.2s;
     background-color: #CDC1FF;
+    display:flex; flex-direction: column; align-items: center; align-content:space-between;
     
 }
 
@@ -164,4 +168,9 @@ body
 {
     padding: 10px;
     border-radius: 20px;
+}
+
+.anime p
+{
+    color:gray; font-size: 18px;
 }
